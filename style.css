@@ -14,7 +14,6 @@ html {
 
 
 .flex img{
-  height: 60%;
   margin-left: 10%;
 }
 
@@ -94,9 +93,6 @@ html {
   text-align: left;
 
 }
-.flex img{
-  height: 0%;
-}
 }
 @media (min-width:480px) and (max-width:599px)  { /* smartphones, Android phones, landscape iPhone */
   
@@ -105,12 +101,12 @@ html {
   font-size: 400%;
   text-align: left;
 
-}
-.flex img{
-  height: 0%;
-}
-}
-@media (min-width:600px) and (max-width: 800px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+}}
+
+
+
+
+@media (max-width: 940px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 
   .inner-header h1{
     margin-left: 8%;
@@ -118,7 +114,6 @@ html {
     text-align: left;
   
   }
-
   .flex img{
     height: 0%;
   }
