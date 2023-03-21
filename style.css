@@ -19,8 +19,6 @@ html {
 
 .text
 {
-  position: relative;
-  z-index: 10;
   text-align: left;
   margin-left: 5%;
 
@@ -76,11 +74,11 @@ html {
   
   .text h2
   {
-    font-size: 3em;
+    font-size: 6em;
   }
   .text h3
   {
-    font-size: 2em;
+    font-size: 4em;
   }
 }
 
@@ -106,7 +104,15 @@ html {
 
 
 
-@media (max-width: 940px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media (max-width: 1040px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+
+
+  .flex img{
+    height: 0%;
+  }
+
+}
+@media (min-width:1041px) and (max-width: 1200px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 
   .inner-header h1{
     margin-left: 8%;
@@ -115,7 +121,7 @@ html {
   
   }
   .flex img{
-    height: 0%;
+    height: 40%;
   }
 
 }
@@ -156,7 +162,6 @@ margin-left: 3%;
   padding-bottom: 20px;
   position: relative;
   text-transform: capitalize;
-  z-index: 1;
 }
 
 .site-heading h4::before {
@@ -205,7 +210,7 @@ margin-left: 3%;
   overflow: hidden;
   padding: 30px;
   position: relative;
-  z-index: 1;
+  z-index: 0;
 }
 
 .we-offer-area.text-center .item {
@@ -299,7 +304,7 @@ margin-left: 3%;
   padding: 30px;
   border-radius: 6px;
   position: relative;
-  z-index: 1;
+  z-index: 0;
 }
 
 .we-offer-area.text-center .item5 {
@@ -473,7 +478,7 @@ margin-left: 3%;
   padding: 30px;
   border-radius: 6px;
   position: relative;
-  z-index: 1;
+  z-index: 0;
 }
 
 .we-offer-area.text-center .item6 {
@@ -1219,12 +1224,12 @@ nav ul.sub li a:hover {
   }
   img {
 max-width: 100%;
+margin-bottom: 60px;
 height: auto;
 }
 
 .sec-title{
 position:relative;
-z-index: 1;
 margin-bottom:60px;
 }
 
@@ -1403,6 +1408,11 @@ content: "";
 .about-section .image-column .image-1{
 position: relative;
 }
+.about-section .image-column .image-3{
+  position: absolute;
+  }
+
+  
 
 .about-section .image-column .image-2{
 position: absolute;
