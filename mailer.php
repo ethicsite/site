@@ -29,7 +29,7 @@ $mail->Username = "pesoliquido231@gmail.com";
 $mail->Password = "sFr6ytwx3ARfq59L";
 
 $mail->setFrom($email, $name);
-$mail->addAddress("pesoliquido231@gmail.com");
+$mail->addAddress("geral@ethic-site.com");
 
 $mail->Subject = $email;
 $mail->Body = "Nome: $name <br>Nome da empresa: $name_empresa<br>Email: $email<br>Telemovel: $telemovel<br>Projeto: $drop<br>Como nos encontrou: $como<br>Assunto: $comment";
