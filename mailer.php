@@ -23,6 +23,7 @@ $mail->isSMTP();
 $mail->SMTPAuth = true;
 $mail->isHTML(true);
 
+$mail->SMTPSecure = 'ssl';
 
 $mail->Host = "smtp.gmail.com";
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
@@ -31,7 +32,6 @@ $mail->Port = 587;
 $mail->Username = "geral@ethic-site.com";
 $mail->Password = "hsopuncbvvgxwrbc";
 
-$mail->setFrom($email, $name);
 $mail->addAddress("geral@ethic-site.com");
 
     $mail->Subject = $email;
