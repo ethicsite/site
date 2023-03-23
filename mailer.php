@@ -41,4 +41,4 @@ $mail->addAddress("geral@ethic-site.com");
 
 $mail->send();
 
-echo "<meta http-equiv='refresh' content='0;URL=contact.html#section2'>";
+header("Location: contact.html");
