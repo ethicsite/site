@@ -1,14 +1,14 @@
 <?php
 
-$name = $_POST["name"];
-$name_empresa = $_POST["name_empresa"];
-$tNegocio = $_POST["tNegocio"];
-$email = $_POST["email"];
-$telemovel = $_POST["telemovel"];
-$como = $_POST["como"];
-$drop = $_POST["drop"];
-$drop2 = $_POST["drop2"];
-$comment = $_POST["comment"];
+$x = $_POST["x"];
+$x1 = $_POST["x1"];
+$x2 = $_POST["x2"];
+$x3 = $_POST["x3"];
+$x4 = $_POST["x4"];
+$x5 = $_POST["x5"];
+$x6 = $_POST["x6"];
+$x7 = $_POST["x7"];
+$x8 = $_POST["x8"];
 
 require "phpmailer/vendor/autoload.php";
 
@@ -34,8 +34,8 @@ $mail->Password = "hsopuncbvvgxwrbc";
 
 $mail->addAddress("geral@ethic-site.com");
 
-    $mail->Subject = $email;
-    $mail->Body = "Nome: $name <br>Nome da empresa: $name_empresa<br>Tipo de negócio: $tNegocio<br>Email: $email<br>Telemovel: $telemovel<br>Como nos encontrou: $como<br>Projeto: $drop<br>Pacote: $drop2<br>Assunto: $comment";
+    $mail->Subject = $x3;
+    $mail->Body = "Nome: $x <br>Nome da empresa: $x1<br>Tipo de negócio: $x2<br>Email: $x3<br>Telemovel: $x4<br>Como nos encontrou: $x5<br>Projeto: $x6<br>Pacote: $x7<br>Assunto: $x8";
  
 
 
