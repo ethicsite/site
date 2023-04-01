@@ -2212,3 +2212,103 @@ transform:scale(0);
  }
 
 /*PREÇO*/
+
+.contact-body{
+  background: #f1f1f1;
+  margin-top: 20px;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-info{
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+
+.cardC{
+  background: white;
+  padding: 0 20px;
+  margin: 0 10px;
+  width: calc(33% - 20px);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  font-weight: 1400;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.cardC-icon{
+  color: white;
+  font-size: 28px;
+  background: #0099ff;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px !important;
+  border-radius: 50%;
+  transition: 0.3s linear;
+}
+
+
+
+.cardC p{
+  margin-top: 20px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  max-height: 0;
+  opacity: 100;
+  transition: 0.3s linear;
+}
+
+.cardC a{
+  margin-top: 20px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  max-height: 0;
+  opacity: 100;
+  transition: 0.3s linear;
+  text-decoration: none;
+}
+.cardC a:link {
+  text-decoration: none;
+}
+
+.cardC a:visited {
+  text-decoration: none;
+}
+
+.cardC a:hover {
+  text-decoration: none;
+}
+
+.cardC a:active {
+  text-decoration: none;
+}
+
+/*.cardC:hover p{
+  max-height: 40px;
+  opacity: 1;
+}*/
+
+
+@media screen and (max-width:800px) {
+  .contact-info{
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .cardC{
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+  }
+}
